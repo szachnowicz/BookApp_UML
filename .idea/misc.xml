@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectKey">
+    <option name="state" value="project://e2804f05-5315-4fc6-a121-c522a6c26470" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="UMLDiagramComponent">
+    <diagram name="company">
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.company.Main" />
+      <command command-class="de.frag.umlplugin.uml.command.AddDependentClassesCommand" psi-class="com.company.Main" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesCommand" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesCommand" />
+      <command command-class="de.frag.umlplugin.uml.command.AddDependentClassesCommand" psi-class="com.company.Facade" />
+      <command command-class="de.frag.umlplugin.uml.command.AddUsingClassesCommand" psi-class="com.company.entities.TitleBook" />
+      <compartment-visibility>
+        <show-fields class="com.company.Factory" />
+        <show-fields class="com.company.entities.Book" />
+        <show-fields class="com.company.entities.TitleBook" />
+        <show-fields class="com.company.Facade" />
+        <show-methods class="com.company.Factory" />
+        <show-methods class="com.company.entities.Book" />
+        <show-methods class="com.company.Main" />
+        <show-methods class="com.company.Facade" />
+      </compartment-visibility>
+    </diagram>
+  </component>
+</project>
